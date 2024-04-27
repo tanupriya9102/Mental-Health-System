@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2024-04-27T18:12:21.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="LJmVySp-PoBwkjURFoUh" version="24.3.1" type="device">
+  <diagram name="Page-1" id="Nux_keLPYqJua6hAFA9e">
+    <mxGraphModel dx="794" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-85" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
+          <mxGeometry x="20" y="140" width="150" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-86" value="FlaskApplication" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#fcfcfc;strokeColor=#996185;gradientColor=#D5689F;" parent="1" vertex="1">
+          <mxGeometry x="254" y="140" width="150" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-87" value="Chatbot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#E5EFFC;strokeColor=#6c8ebf;gradientColor=#5EB0E0;" parent="1" vertex="1">
+          <mxGeometry x="454" y="140" width="150" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-88" value="StreamlitInterface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="654" y="140" width="150" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-89" value="MentalHealthAnalyzer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="854" y="140" width="176" height="628" as="geometry" />
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-90" value="Accesses application" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-85" target="NCZ2F_WhFzo3rl5ZW7cT-86" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-91" value="Presents main interface" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-86" target="NCZ2F_WhFzo3rl5ZW7cT-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="222" y="299" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-92" value="Initiates conversation" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-85" target="NCZ2F_WhFzo3rl5ZW7cT-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-93" value="Engages in conversation" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-87" target="NCZ2F_WhFzo3rl5ZW7cT-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-94" value="Requests analysis" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-87" target="NCZ2F_WhFzo3rl5ZW7cT-89" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="746" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-95" value="Analyzes text" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-89" target="NCZ2F_WhFzo3rl5ZW7cT-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="746" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-96" value="Provides insights" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-87" target="NCZ2F_WhFzo3rl5ZW7cT-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-97" value="Accesses mental health analyzer" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-85" target="NCZ2F_WhFzo3rl5ZW7cT-88" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="611" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NCZ2F_WhFzo3rl5ZW7cT-98" value="Presents analysis interface" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=none;" parent="1" source="NCZ2F_WhFzo3rl5ZW7cT-88" target="NCZ2F_WhFzo3rl5ZW7cT-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="422" y="663" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
